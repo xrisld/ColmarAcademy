@@ -1,0 +1,15 @@
+html {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	color: rgb(74, 74, 74);
+	font-size: 8px;
+	}
+img {vertical-align: middle;}
+
+.container {
+	max-width: 1260px;
+	margin: 0 auto;
+	}
+.flex {display: flex;}
+
+.col-left {width: 60%;}
+.col-right {width: 40%;}
