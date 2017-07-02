@@ -17,7 +17,7 @@ img {vertical-align: middle;}
 
 
 
-/**Hero Section**/
+/**Heading**/
 
 heading {
 	height: 8rem;
@@ -66,3 +66,28 @@ nav.mobile {
 	display: none;
 	width: 100%;
 	}
+
+  /**Hero**/
+
+  .hero {
+	background-color: rgb(216,216,216);
+	display: flex;
+	margin-top: 8rem;
+	}
+
+.hero-image {
+	padding: 4rem 2.5rem 4rem 3rem;
+	}
+	.hero-image img {
+		max-width: 100%;
+		}
+
+.hero .col-right {
+	display: flex;
+	align-items: center;
+	}
+	.hero .message {padding: 4rem 3rem 4rem 2.5rem;}
+		.hero .message p {
+			font-size: 3rem;
+			font-weight: 500;
+			}
