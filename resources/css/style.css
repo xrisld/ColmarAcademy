@@ -132,3 +132,38 @@ nav.mobile {
 				color: rgb(17, 144, 200);
 				border: 1px solid rgb(17, 144, 200);
 				}
+
+/**Courses**/
+
+.courses {
+	background-color: rgb(234,235,236);
+	padding-bottom: 2rem;
+	}
+
+.courses-heading {
+		padding: 4rem 0;
+		margin: 0;
+		text-align: center;
+		}
+
+.courses .wrapper {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: stretch;
+		}
+
+.courses article {
+		max-width: 25%;
+		padding: 0 2rem 2rem 2rem;
+		}
+
+.courses .course-summary {
+		background-color: rgb(255, 255, 255);
+		padding: 2rem;
+		height: 18rem;
+		overflow: hidden;
+		}
+    
+.courses img {max-width: 100%;}
+
+.courses p.uppercase {margin-bottom: 1rem;}
