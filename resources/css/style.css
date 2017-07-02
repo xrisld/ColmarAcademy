@@ -163,7 +163,37 @@ nav.mobile {
 		height: 18rem;
 		overflow: hidden;
 		}
-    
+
 .courses img {max-width: 100%;}
 
 .courses p.uppercase {margin-bottom: 1rem;}
+
+@media only screen and (max-width: 999px) {
+	.courses .course-summary {height: 22rem}
+	}
+
+/**Thesis**/
+
+.thesis h2 {
+	padding: 4rem 0;
+	margin: 0;
+	text-align: center;
+	}
+
+.thesis .main {padding: 0 1rem 2rem 3rem;}
+	.thesis .main .video-container {margin-bottom: 3rem;}
+	.thesis .main video {max-width: 100%;}
+
+.thesis article {
+	display: flex;
+	align-items: center;
+	padding: 2rem;
+	}
+	.thesis article:first-child {background-color: rgb(216,216,216);}
+	.thesis article .image-container {
+		margin-right: 2rem;
+		width: 35%;
+		}
+	.thesis article .details {width: 65%;}
+
+  
