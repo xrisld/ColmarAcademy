@@ -91,3 +91,44 @@ nav.mobile {
 			font-size: 3rem;
 			font-weight: 500;
 			}
+
+/**Info**/
+
+.information .main {padding: 4rem 3rem;}
+		.information .main .image-container {margin-bottom: 4rem;}
+		.information .main img {max-width: 100%;}
+		.information .main p {margin-bottom: 3rem;}
+
+.information article {
+		display: flex;
+		align-items: flex-start;
+		padding: 2rem;
+		}
+.information article:first-child {padding-top: 4rem;}
+.information article:last-child {background-color: rgb(216,216,216);}
+
+.information article .image-container {
+			margin-right: 2rem;
+			width: 35%;
+			}
+.article-img {max-width: 100%;}
+
+.information article .details {width: 65%;}
+
+.information article .cta,
+.information article p {margin-bottom: 1rem;}
+
+.information article .cta {padding-top: 2rem;}
+
+.information article a {
+			color: rgb(23, 42, 58);
+			border: 1px solid rgb(23, 42, 58);
+			padding: 1rem 2rem;
+			border-radius: 2rem;
+			text-decoration: none;
+			transition: color 100ms ease-in;
+			}
+.information article a:hover {
+				color: rgb(17, 144, 200);
+				border: 1px solid rgb(17, 144, 200);
+				}
