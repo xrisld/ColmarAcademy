@@ -1,7 +1,7 @@
 html {
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	color: rgb(74, 74, 74);
-	font-size: 8px;
+	font-size: 10px;
+  color: #0068ac;
 	}
 img {vertical-align: middle;}
 
@@ -13,9 +13,6 @@ img {vertical-align: middle;}
 
 .col-left {width: 60%;}
 .col-right {width: 40%;}
-
-
-
 
 /**Heading**/
 
@@ -29,8 +26,8 @@ heading {
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: rgb(255, 255, 255);
-    max-width: 1212px;
+	background-color: #0068ac;
+    max-width: auto;
     margin: 0 auto;
 	}
 .brand {
@@ -55,10 +52,10 @@ nav li {
 nav a {
 	font-size: 2rem;
 	text-decoration: none;
-	color: rgb(74, 74, 74);
+	color: #ffffff;
 	transition: color 100ms ease-in;
 	}
-	nav a:hover {color: rgb(56, 182, 238);}
+	nav a:hover {color: #ffae19;}
 
 nav img {height: 4rem;}
 
@@ -70,7 +67,7 @@ nav.mobile {
   /**Hero**/
 
   .hero {
-	background-color: rgb(216,216,216);
+	background-color: #d3d3d3;
 	display: flex;
 	margin-top: 8rem;
 	}
@@ -105,7 +102,7 @@ nav.mobile {
 		padding: 2rem;
 		}
 .information article:first-child {padding-top: 4rem;}
-.information article:last-child {background-color: rgb(216,216,216);}
+.information article:last-child {background-color: #d3d3d3;}
 
 .information article .image-container {
 			margin-right: 2rem;
@@ -121,22 +118,22 @@ nav.mobile {
 .information article .cta {padding-top: 2rem;}
 
 .information article a {
-			color: rgb(23, 42, 58);
-			border: 1px solid rgb(23, 42, 58);
+			color: #172a3a;
+			border: 1px solid #172a3a;
 			padding: 1rem 2rem;
 			border-radius: 2rem;
 			text-decoration: none;
 			transition: color 100ms ease-in;
 			}
 .information article a:hover {
-				color: rgb(17, 144, 200);
-				border: 1px solid rgb(17, 144, 200);
+				color: #0068ac;
+				border: 1px solid #0068a;
 				}
 
 /**Courses**/
 
 .courses {
-	background-color: rgb(234,235,236);
+	background-color: #eaebec;
 	padding-bottom: 2rem;
 	}
 
@@ -158,7 +155,7 @@ nav.mobile {
 		}
 
 .courses .course-summary {
-		background-color: rgb(255, 255, 255);
+		background-color: #ffffff;
 		padding: 2rem;
 		height: 18rem;
 		overflow: hidden;
@@ -189,11 +186,111 @@ nav.mobile {
 	align-items: center;
 	padding: 2rem;
 	}
-	.thesis article:first-child {background-color: rgb(216,216,216);}
+	.thesis article:first-child {background-color: #d8d8d8;}
 	.thesis article .image-container {
 		margin-right: 2rem;
 		width: 35%;
 		}
 	.thesis article .details {width: 65%;}
 
-  
+  /**Footer**/
+
+  footer {
+	padding: 2rem 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	}
+	footer p {font-size: 1.5rem;}
+
+@media only screen and (max-width: 470px) {
+	footer {justify-content: center;}
+	}
+
+  /**Mobile Specs**/
+
+  /*********** MOBILE SPECIFIC ***********/
+@media only screen and (max-width: 470px) {
+	.col-left,
+	.col-right {width: 100%;}
+	}
+
+.uppercase {text-transform: uppercase;}
+.bold {font-weight: 900;}
+.gray {color: #ffae19;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	line-height: 1.2;
+	color: #ffffff;
+	}
+h1 {
+	font-size: 6rem;
+	margin-bottom: 2rem;
+	font-weight: 900;
+	}
+h2 {
+	font-size: 4rem;
+	font-weight: 900;
+	margin-bottom: 3rem;
+
+	}
+h3 {
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	}
+h6 {font-weight: 400;}
+
+p {
+	font-size: 2rem;
+	line-height: 1.5;
+	}
+
+  @media only screen and (max-width: 470px) {
+  	.mobile-hide {display: none;}
+  	}
+
+    @media only screen and (max-width: 470px) {
+    	.brand {display: none;}
+    	nav.desktop {display: none;}
+
+    	nav.mobile {
+    		display: flex;
+    		justify-content: space-between;
+    		}
+    	}
+
+      @media only screen and (max-width: 470px) {
+      	.hero {flex-direction: column;}
+      		.hero .hero-image {padding: 0;}
+      		.hero .message {padding: 4rem 2rem;}
+      		.hero button {
+      			width: 100%;
+      			padding: 2rem;
+      			}
+
+            @media only screen and (max-width: 470px) {
+            	.information article {padding: 1rem 2rem;}
+            		.information article:first-child {padding-top: 2rem;}
+            	}
+
+              @media only screen and (max-width: 470px) {
+              	.courses {background-color: #ffffff;}
+              		.courses .wrapper {flex-direction: column;}
+              		.courses article {max-width:100%;}
+              		.courses .course-summary {
+              			background-color: #eaeaea;
+              			height: auto;
+              			}
+              		.courses h3 {margin: 0;}
+              	}
+
+                @media only screen and (max-width: 470px) {
+                	.thesis .main {padding: 4rem 0;}
+                	}
+/**Desktop**/
+
+@media only screen and (min-width: 768px) {
+	.desktop-hide {display: none;}
+	}
